@@ -1,0 +1,184 @@
+@charset "utf-8";
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "Microsoft Yahei";
+}
+.head{
+	position: relative;
+	width: 1350px;
+	height: 130px;
+	margin: 0 auto;
+}
+.headbottom{
+	position: relative;
+	width: 100%;
+	height: 16px;
+	background: black;
+	margin: 0 auto;
+}
+.vanslogo{
+	position: absolute;
+	width: 200px;
+	height: 100px;
+	top:34px;
+	left: 18px;
+}
+#vanslogo{
+	width: 156px;
+}
+.headrighttop{
+	position: relative;
+	float: right;
+	right: 18px;
+	width: 360px;
+	height: 40px;
+	top:10px;
+}
+.headrighttop a{
+	font-weight: bold;
+	font-size: 16px;
+	letter-spacing: 1px;
+	text-decoration: none;
+	color: #9b9b9e;
+}
+.shoppingcar,.login,.search{
+	position: relative;
+	width: 120px;
+	height: 30px;
+	line-height: 30px;
+	display: inline;
+	background-size: 15px;
+	background-position:left;
+	background-repeat: no-repeat;
+}
+.shoppingcar{
+	background-image: url(../images/购物车.png);
+}
+.shoppingcar a{
+	padding-left: 20px;
+}
+.shoppingcar:hover{
+	background-image: url(../images/购物车ho.png);
+}
+.shoppingcar a:hover{
+	color: #c9192e;
+}
+.login{
+	left: 20px;
+	background-image: url(../images/用户.png);
+	
+}
+#logina{
+	padding-left: 18px;
+}
+.login:hover{
+	background-image: url(../images/用户ho.png);
+	color: #c9192e;
+}
+#logina:hover,#loginb:hover{
+	color: #c9192e;
+}
+.search{
+	left: 40px;
+	background-image: url(../images/位置.png);
+}
+.search a{
+	padding-left: 18px;
+}
+.search:hover{
+	background-image: url(../images/位置ho.png);
+}
+.search a:hover{
+	color: #c9192e;
+}
+.headnav{
+	position: absolute;
+	width: 630px;
+	height: 40px;
+	top:82px;
+	left: 500px;
+}
+.headnav a{
+	font-weight: bold;
+	font-size: 16px;
+	text-decoration: none;
+	color: black;
+	padding-right: 20px;
+}
+.headnav a:hover{
+	color: #c9192e;
+}
+.aboutvans,.remen,.man,.woman,.CUSTOMS,.more{
+	position: relative;
+	width: 150px;
+	height: auto;
+	display: inline;
+	background-size: 13px;
+	background-position:right;
+	background-repeat: no-repeat;
+	background-image: url(../images/下拉箭头.png);
+}
+.aboutvans:hover,.remen:hover,.man:hover,.woman:hover,.more:hover{
+	background-image: url(../images/下拉箭头ho.png);
+}
+.CUSTOMS{
+	background: none;
+}
+.remen{
+	left: 30px;
+}
+.man{
+	left: 60px;
+}
+.woman{
+	left: 90px;
+}
+.CUSTOMS{
+	left: 120px;
+}
+.CUSTOMS img{
+	position: absolute;
+	left: 125px;
+}
+.more{
+	left: 130px;
+}
+.aboutvans span{
+	font-size: 15px;
+	padding-left: 3px;
+	font-weight:bolder;
+	letter-spacing: -1px;
+}
+.CUSTOMS span{
+	font-size: 15px;
+	font-weight:bolder;
+	letter-spacing: -1px;
+	padding-right: 3px;
+}
+.xiexian{
+	position:absolute;
+	top:4px;
+	padding-left: 3px;
+	width: 15px;
+}
+.headss{
+	position: absolute;
+	width: 182px;
+	height: 25px;
+	top:78px;
+	left: 1150px;
+}
+.headss img{
+	position: absolute;
+	width: 14px;
+	top:7px;
+	left: 150px;
+}
+#headss{
+	width: 162px;
+	height: 25px;
+	line-height: 25px;
+	color:rgba(154,154,154,1.00);
+	padding-left: 10px;
+}
