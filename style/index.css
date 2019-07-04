@@ -10,6 +10,16 @@ body{
 	height: 130px;
 	margin: 0 auto;
 }
+.head2{
+	position: fixed;
+	width: 100%;
+	height: 60px;
+	margin: 0 auto;
+	z-index: 999;
+	background: #fff;
+	display: none;
+	box-shadow: 1px 1px 3px #bdbdbd;
+}
 .headbottom{
 	position: relative;
 	width: 100%;
@@ -24,8 +34,18 @@ body{
 	top:34px;
 	left: 18px;
 }
+.vanslogo2{
+	position: absolute;
+	width: 200px;
+	height: 100px;
+	top:12px;
+	left: 118px;
+}
 #vanslogo{
 	width: 156px;
+}
+#vanslogo2{
+	width: 100px;
 }
 .headrighttop{
 	position: relative;
@@ -92,27 +112,31 @@ body{
 .search a:hover{
 	color: #c9192e;
 }
-.headnav{
+.headnav,.headnav2{
 	position: absolute;
 	width: 630px;
-	height: 40px;
+	height: 50px;
 	top:82px;
 	left: 500px;
 }
-.headnav a{
+.headnav2{
+	top:22px;
+	left: 780px;
+}
+.headnav a,.headnav2 a{
 	font-weight: bold;
 	font-size: 16px;
 	text-decoration: none;
 	color: black;
 	padding-right: 20px;
 }
-.headnav a:hover{
+.headnav a:hover,.headnav2 a:hover{
 	color: #c9192e;
 }
 .aboutvans,.remen,.man,.woman,.CUSTOMS,.more{
 	position: relative;
 	width: 150px;
-	height: auto;
+	height: 50px;
 	display: inline;
 	background-size: 13px;
 	background-position:right;
@@ -181,4 +205,64 @@ body{
 	line-height: 25px;
 	color:rgba(154,154,154,1.00);
 	padding-left: 10px;
+}
+.topbigbg{
+	position: relative;
+	width: 1450px;
+	height: 960px;
+	background-image: url(../images/a4e7a7e19a773028c8e85cb09464cfae0090cae9.jpg);
+	margin: 0 auto;
+}
+.centerbigbg{
+	position: relative;
+	width: 1450px;
+	height: 970px;
+	background-image: url(../images/628321519bfb0de26cd5e6ed18c81d9251e5c9e2.jpg);
+	margin: 0 auto;
+}
+.abvsover,.remenover{
+	position: absolute;
+	width: 100%;
+	height: 150px;
+	z-index: 999;
+	display: none;
+	text-align: center;
+	background: black;
+}
+.abvsover a,.remenover a{
+	position: relative;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	left: -50px;
+	top:40px;
+	transition: all 0.2s;
+	margin: 10px 120px;
+}
+.remenover a{
+	left: -200px;
+	top:50px;
+	margin: 10px 300px;
+}
+#abvssecond{
+	position: relative;
+	color: #589bc6;
+	top:50px;
+	left: 255px;
+}
+.abvsover a:hover,#abvssecond:hover,.remenover a:hover{
+	color: #c8192e;
+}
+#triangle,#triangle2{
+	position: absolute;
+    border: 15px solid;
+    border-color: transparent transparent black;
+}
+#triangle{
+	left: 30px;
+	display: none;
+}
+#triangle2{
+	left: 8px;
+	display: none;
 }
