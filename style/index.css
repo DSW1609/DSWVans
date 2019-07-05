@@ -198,6 +198,7 @@ body{
 	width: 14px;
 	top:7px;
 	left: 150px;
+	cursor: pointer;
 }
 #headss{
 	width: 162px;
@@ -205,6 +206,7 @@ body{
 	line-height: 25px;
 	color:rgba(154,154,154,1.00);
 	padding-left: 10px;
+	
 }
 .topbigbg{
 	position: relative;
@@ -265,4 +267,119 @@ body{
 #triangle2{
 	left: 8px;
 	display: none;
+}
+.topbg{
+	position: relative;
+	width: 1440px;
+	height: 600px;
+	margin: 0 auto;
+}
+.topbg img{
+	width: 1440px;
+	height: 600px;
+}
+.gdbg{
+	position: relative;
+	width: 1440px;
+	height: 650px;
+	margin: 0 auto;
+	top:20px;
+	text-align: center;
+}
+.gdbox{
+	position: relative;
+	float: left;
+	width: 460px;
+	height: 650px;
+}
+#gdbox2{
+	left: 30px;
+}
+#gdbox3{
+	left: 60px;
+}
+.gdboximg{
+	position: relative;
+	width: 460px;
+	height: 470px;
+	overflow: hidden;
+}
+.gdboximg img{
+	width: 460px;
+	height: 470px;
+	transition: all 0.5s;
+}
+.gdbg img:hover{
+	transform: scale(1.1);
+}
+.gdbox a{
+	position: relative;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-size: 22px;
+	top: 20px;
+	letter-spacing: 3px;
+}
+.ljxg{
+	position: relative;
+	width: 170px;
+	height: 50px;
+	background: black;
+	margin: 0 auto;
+	line-height: 50px;
+	color: #fff;
+	top:60px;
+}
+.bottom{
+	position: relative;
+	width: 100%;
+	height: 470px;
+	top:40px;
+	margin: 0 auto;
+	background: #000;
+}
+.bottomnav{
+	position: relative;
+	width: 1450px;
+	height: 470px;
+	margin: 0 auto;
+}
+.hqbz{
+	position: relative;
+	width: 500px;
+	height: 265px;
+	top:30px;
+	float: left;
+	line-height: 25px;
+	border-right:1px solid #919191;
+}
+.lxwm{
+	position: relative;
+	width: 630px;
+	height: 265px;
+	top:30px;
+	left: 40px;
+	float: left;
+	line-height: 25px;
+	border-right:1px solid #919191;
+}
+.zdwm{
+	position: relative;
+	width: 300px;
+	height: 265px;
+	top:30px;
+	left: 50px;
+	float: left;
+}
+.bottom a{
+	text-decoration: none;
+	color: #589bc6;
+}
+.afff{
+	font-size: 20px;
+	font-weight: bold;
+}
+.ahover:hover{
+	color: #c91928;
 }
