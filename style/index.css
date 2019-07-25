@@ -87,7 +87,7 @@ body{
 .login{
 	left: 20px;
 	background-image: url(../images/用户.png);
-	
+
 }
 #logina{
 	padding-left: 18px;
@@ -122,6 +122,12 @@ body{
 .headnav2{
 	top:22px;
 	left: 780px;
+}
+.headover{
+	position: absolute;
+	width: 1000px;
+	height: 130px;
+	left: 190px;
 }
 .headnav a,.headnav2 a{
 	font-weight: bold;
@@ -206,7 +212,7 @@ body{
 	line-height: 25px;
 	color:rgba(154,154,154,1.00);
 	padding-left: 10px;
-	
+
 }
 .topbigbg{
 	position: relative;
@@ -222,7 +228,7 @@ body{
 	background-image: url(../images/628321519bfb0de26cd5e6ed18c81d9251e5c9e2.jpg);
 	margin: 0 auto;
 }
-.abvsover,.remenover{
+.vanshead{
 	position: absolute;
 	width: 100%;
 	height: 150px;
@@ -231,7 +237,7 @@ body{
 	text-align: center;
 	background: black;
 }
-.abvsover a,.remenover a{
+.vanshead a{
 	position: relative;
 	color: #fff;
 	text-decoration: none;
@@ -241,10 +247,38 @@ body{
 	transition: all 0.2s;
 	margin: 10px 120px;
 }
-.remenover a{
-	left: -200px;
-	top:50px;
-	margin: 10px 300px;
+#mannavbottom,#womannavbottom{
+	height: 360px;
+}
+.man1{
+	position: relative;
+	width: 300px;
+	height: 340px;
+	text-align: left;
+	line-height: 27px;
+	top:-30px;
+	left: 50px;
+}
+.man1 a{
+	font-size: 15px;
+	color: #589bc6;
+}
+.man1 a:hover{
+	color: #c9192e;
+}
+.man2{
+	position: absolute;
+	left: 350px;
+}
+.man3{
+	position: absolute;
+	left: 650px;
+}
+.manbg{
+	position: absolute;
+	width: 350px;
+	left: 1000px;
+	top:30px;
 }
 #abvssecond{
 	position: relative;
@@ -252,21 +286,19 @@ body{
 	top:50px;
 	left: 255px;
 }
-.abvsover a:hover,#abvssecond:hover,.remenover a:hover{
+.vansheada:hover,#abvssecond:hover{
 	color: #c8192e;
 }
-#triangle,#triangle2{
+.triangle{
 	position: absolute;
-    border: 15px solid;
-    border-color: transparent transparent black;
-}
-#triangle{
-	left: 30px;
+	border: 16px solid;
+	top:16px;
+	left: 20px;
 	display: none;
+	border-color: transparent transparent black;
 }
-#triangle2{
-	left: 8px;
-	display: none;
+.tr2,.tr3,.tr4{
+	left: 4px;
 }
 .topbg{
 	position: relative;
