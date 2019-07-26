@@ -30,8 +30,9 @@ for (var i = 0; i < headnav.length; i++) {
   headnav[i].onmouseover = function(){
     heado();
 		triangleo();
-    vanshead[this.id].style.display = "block";
-		triangle[this.id].style.display = "block";
+		var index = this.getAttribute('index');//获取自定义属性
+    vanshead[index].style.display = "block";
+		triangle[index].style.display = "block";
   }
 }
 function heado(){
