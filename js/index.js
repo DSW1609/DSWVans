@@ -31,6 +31,7 @@ for (var i = 0; i < headnav.length; i++) {
     heado();
 		triangleo();
 		var index = this.getAttribute('index');//获取自定义属性
+		vanshead[index].style.top = '';
     vanshead[index].style.display = "block";
 		triangle[index].style.display = "block";
   }
